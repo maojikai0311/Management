@@ -1,0 +1,285 @@
+QLineEdit#usernameEdit{
+	border-radius: 6px;
+	/* 边框圆角 */
+	padding-left: 5px;
+	/* 文本距离左边界有5px */
+	background-color: #ffffff;
+	/* 背景颜色 */
+	color: #5e5959;
+	/* 文本颜色 */
+	selection-background-color: #9b9da3;
+	/* 选中文本的背景颜色 */
+	selection-color: #0b7eea;
+	/* 选中文本的颜色 */
+	font-family: "Microsoft YaHei";
+	/* 文本字体族 */
+	font-size: 16pt;
+	/* 文本字体大小 */
+}
+
+QLineEdit#usernameEdit:hover {
+	/* 鼠标悬浮在QLineEdit时的状态 */
+	border: 1px solid #298DFF;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+	color: #298DFF;
+	selection-background-color: #298DFF;
+	selection-color: #F2F2F2;
+}
+
+QLineEdit#usernameEdit[echoMode="2"]{
+	/* QLineEdit有输入掩码时的状态 */
+	lineedit-password-character: 9679;
+	lineedit-password-mask-delay: 2000;
+}
+
+QLineEdit#usernameEdit:disabled {
+	/* QLineEdit在禁用时的状态 */
+	border: 1px solid #CDCDCD;
+	background-color: #CDCDCD;
+	color: #B4B4B4;
+}
+
+QLineEdit#usernameEdit:read-only {
+	/* QLineEdit在只读时的状态 */
+	background-color: #CDCDCD;
+	color: #F2F2F2;
+}
+
+QLineEdit#passwordEdit{
+	border-radius: 6px;
+	/* 边框圆角 */
+	padding-left: 5px;
+	/* 文本距离左边界有5px */
+	background-color: #ffffff;
+	/* 背景颜色 */
+	color: #5e5959;
+	/* 文本颜色 */
+	selection-background-color: #9b9da3;
+	/* 选中文本的背景颜色 */
+	selection-color: #0b7eea;
+	/* 选中文本的颜色 */
+	font-family: "Microsoft YaHei";
+	/* 文本字体族 */
+	font-size: 16pt;
+	/* 文本字体大小 */
+}
+
+QLineEdit#passwordEdit:hover {
+	/* 鼠标悬浮在QLineEdit时的状态 */
+	border: 1px solid #298DFF;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+	color: #298DFF;
+	selection-background-color: #298DFF;
+	selection-color: #F2F2F2;
+}
+
+QLineEdit#passwordEdit[echoMode="2"]{
+	/* QLineEdit有输入掩码时的状态 */
+	lineedit-password-character: 9679;
+	lineedit-password-mask-delay: 2000;
+}
+
+QLineEdit#passwordEdit:disabled {
+	/* QLineEdit在禁用时的状态 */
+	border: 1px solid #CDCDCD;
+	background-color: #CDCDCD;
+	color: #B4B4B4;
+}
+
+QLineEdit#passwordEdit:read-only {
+	/* QLineEdit在只读时的状态 */
+	background-color: #CDCDCD;
+	color: #F2F2F2;
+}
+QPushButton#CloseBtn{
+	border-image: url(":/img/close.svg");
+}
+
+QPushButton#CloseBtn:hover{
+	border-image: url(":/img/closehover.svg");
+}
+
+QPushButton#CloseBtn:pressed{
+	border-image: url(":/img/closepressd.svg");
+}
+
+QPushButton#loginBtn{
+	border-image: url(":/img/login.svg");
+}
+
+QPushButton#loginBtn:hover{
+	border-image: url(":/img/loginhover.svg");
+}
+
+QPushButton#loginBtn:pressed{
+	border-image: url(":/img/loginsucess.svg");
+}
+
+QPushButton#AddBtn{
+	border-image: url(":/img/Add.svg");
+}
+
+QPushButton#AddBtn:hover{
+	border-image: url(":/img/Addhover.svg");
+}
+
+QPushButton#DelBtn{
+	border-image: url(":/img/Delte.svg");
+}
+
+QPushButton#DelBtn:hover{
+	border-image: url(":/img/Deletehover.svg");
+}
+
+QPushButton#ModBtn{
+	border-image: url(":/img/Mod.svg");
+}
+
+QPushButton#ModBtn:hover{
+	border-image: url(":/img/Modhover.svg");
+}
+
+QPushButton#SaveBtn{
+	border-image: url(":/img/Save.svg");
+}
+
+QPushButton#SaveBtn:hover{
+	border-image: url(":/img/Savehover.svg");
+}
+
+QPushButton#ExitBtn{
+	border-image: url(":/img/exit.svg");
+}
+
+QPushButton#ExitBtn:hover{
+	border-image: url(":/img/exitpressed.svg");
+}
+
+QLineEdit#UserIDEdit{
+	background:transparent;
+	color:#393939;
+	border-color:#393939;
+	border-style:solid;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:3px;
+	border-left-width:0px;
+}
+
+QLineEdit#UserNameEdit{
+	background:transparent;
+	color:#393939;
+	border-color:#393939;
+	border-style:solid;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:3px;
+	border-left-width:0px;
+}
+
+QLineEdit#UserSalaryEdit{
+	background:transparent;
+	color:#393939;
+	border-color:#393939;
+	border-style:solid;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:3px;
+	border-left-width:0px;
+}
+
+QLineEdit#UserPositionEdit{
+	background:transparent;
+	color:#393939;
+	border-color:#393939;
+	border-style:solid;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:3px;
+	border-left-width:0px;
+}
+
+QLineEdit#UserAddressEdit{
+	background:transparent;
+	color:#393939;
+	border-color:#393939;
+	border-style:solid;
+	border-top-width:0px;
+	border-right-width:0px;
+	border-bottom-width:3px;
+	border-left-width:0px;
+}
+
+QPushButton#userSaveBtn{
+	border-image: url(":/img/Save.svg");
+}
+
+QPushButton#userSaveBtn:hover{
+	border-image: url(":/img/Savehover.svg");
+}
+
+QPushButton#userExitBtn{
+	border-image: url(":/img/exit.svg");
+}
+
+QPushButton#userExitBtn:hover{
+	border-image: url(":/img/exitpressed.svg");
+}
+
+QPushButton#userSearchBtn{
+	border-image: url(":/img/Search.svg");
+}
+
+QPushButton#userSearchBtn:hover{
+	border-image: url(":/img/Searchhover.svg");
+}
+
+QLineEdit#SearchEdit{
+	border-radius: 6px;
+	/* 边框圆角 */
+	padding-left: 5px;
+	/* 文本距离左边界有5px */
+	background-color: #ffffff;
+	/* 背景颜色 */
+	color: #5e5959;
+	/* 文本颜色 */
+	selection-background-color: #9b9da3;
+	/* 选中文本的背景颜色 */
+	selection-color: #0b7eea;
+	/* 选中文本的颜色 */
+	font-family: "Microsoft YaHei";
+	/* 文本字体族 */
+	font-size: 16pt;
+	/* 文本字体大小 */
+}
+
+QLineEdit#SearchEdit:hover {
+	/* 鼠标悬浮在QLineEdit时的状态 */
+	border: 1px solid #298DFF;
+	border-radius: 3px;
+	background-color: #F2F2F2;
+	color: #298DFF;
+	selection-background-color: #298DFF;
+	selection-color: #F2F2F2;
+}
+
+QLineEdit#SearchEdit[echoMode="2"]{
+	/* QLineEdit有输入掩码时的状态 */
+	lineedit-password-character: 9679;
+	lineedit-password-mask-delay: 2000;
+}
+
+QLineEdit#SearchEdit:disabled {
+	/* QLineEdit在禁用时的状态 */
+	border: 1px solid #CDCDCD;
+	background-color: #CDCDCD;
+	color: #B4B4B4;
+}
+
+QLineEdit#SearchEdit:read-only {
+	/* QLineEdit在只读时的状态 */
+	background-color: #CDCDCD;
+	color: #F2F2F2;
+}
