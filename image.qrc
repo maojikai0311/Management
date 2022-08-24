@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>profile/stylesheet.css</file>
+        <file>img/admin.png</file>
+        <file>img/close.svg</file>
+        <file>img/closehover.svg</file>
+        <file>img/closepressd.svg</file>
+        <file>img/login.svg</file>
+        <file>img/loginsucess.svg</file>
+        <file>img/logintip.svg</file>
+        <file>img/Logo.png</file>
+        <file>img/mini.svg</file>
+        <file>img/timeout.svg</file>
+        <file>img/user.png</file>
+        <file>img/Minimize.svg</file>
+        <file>img/exit.svg</file>
+        <file>img/loginhover.svg</file>
+        <file>img/Avatar.png</file>
+        <file>img/Savehover.svg</file>
+        <file>img/Save.svg</file>
+        <file>img/Modhover.svg</file>
+        <file>img/Mod.svg</file>
+        <file>img/Deletehover.svg</file>
+        <file>img/Delte.svg</file>
+        <file>img/Addhover.svg</file>
+        <file>img/Add.svg</file>
+        <file>img/exitpressed.svg</file>
+        <file>profile/password.json</file>
+        <file>img/Warning.svg</file>
+        <file>img/man.svg</file>
+        <file>img/Woman.svg</file>
+        <file>img/UserModhover.svg</file>
+        <file>img/UserMod.svg</file>
+        <file>profile/UserInfo.json</file>
+        <file>img/Searchhover.svg</file>
+        <file>img/Search.svg</file>
+        <file>img/Sucess.svg</file>
+        <file>img/1.ico</file>
+    </qresource>
+</RCC>
